@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj1 = {name:"preson 1", age:5};
+        var obj2 = {age:5, name:"person 1"};
+        function check (obj1,obj2){
+            if(obj1[key]  == obj2[key])
+            return true;
+        else{
+            return false;
+        }
+        }
+         var abc = new XMLHttpRequest()
+         abc.open("GET"," https://restcountries.com/v3.1/all", true)
+         abc.send()
+         abc.onload = function(){
+            if(abc. status >=200 && abc.status >=300){
+                var response = JSON.parse(abc.responseText);
+                console.log(countryflags)
+            } else{
+                console.log("ERROR")
+            }
+         }
+
+
+    </script>
+
+</body>
+</html>
